@@ -10,14 +10,21 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:extension.sayHello"
+		"onCommand:extension.sortLinesAsc",
+		"onCommand:extension.sortLinesDesc"
 	],
 	"main": "./extension",
 	"contributes": {
-		"commands": [{
-			"command": "extension.sayHello",
-			"title": "Hello World"
-		}]
+		"commands": [
+			{
+			"command": "extension.sortLinesAsc",
+			"title": "Sort lines: ASC order"
+			},
+			{
+			"command": "extension.sortLinesDesc",
+			"title": "Sort lines: DESC order"
+			}
+		]
 	},
 	"devDependencies": {
 		"vscode": "0.10.x"
