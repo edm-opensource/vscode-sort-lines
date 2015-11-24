@@ -1,0 +1,25 @@
+{
+	"name": "vscode-sort-lines",
+	"description": "Sort the selected lines in asc/desc order",
+	"version": "0.0.1",
+	"publisher": "edm-opensource",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onCommand:extension.sayHello"
+	],
+	"main": "./extension",
+	"contributes": {
+		"commands": [{
+			"command": "extension.sayHello",
+			"title": "Hello World"
+		}]
+	},
+	"devDependencies": {
+		"vscode": "0.10.x"
+	}
+}
